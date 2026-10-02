@@ -7,7 +7,13 @@
 </head>
 <body>
 
-<h1>Carrello</h1>
+    <h1>Carrello</h1>
+
+    <ul>
+        <li><a href="{{ route("home") }}" >Home</a></li>
+        <li><a href="{{ route("profilo") }}" >Profilo</a></li>
+        <li><a href="{{ route("carrello") }}" >Carrello</a></li>
+    </ul>
     
 </body>
 </html>

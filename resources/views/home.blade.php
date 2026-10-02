@@ -10,10 +10,9 @@
     <H1>Hello World</H1>
 
     <ul>
-        <li><a href="/" >Home</a></li>
-        <li><a href="/profilo" >Profilo</a></li>
-        <li><a href="/carrello" >Carrello</a></li>
-
+        <li><a href="{{ route("home") }}" >Home</a></li>
+        <li><a href="{{ route("profilo") }}" >Profilo</a></li>
+        <li><a href="{{ route("carrello") }}" >Carrello</a></li>
     </ul>
 
     <p>{{$info}} </p>
